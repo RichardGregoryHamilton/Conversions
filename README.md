@@ -1,15 +1,23 @@
 # Conversions
-A gem I built that is useful for performing unit conversions
+
+Conversions is a gem I built that is useful for performing unit conversions. It is useful if you have measurements, and
+would like to convert to another unit. This gem converts units of distance, temperature, cooking and weight.
 
 # Installation
 
-run `gem install conversions`
+To install the gem, you can run
+
+`gem install conversions`
 
 Or add the gem to your gemfile
 
-    gem 'conversions'
+    gem 'conversions', '~1.0.0'
     
 and run `bundle`
+
+You can also run this in `IRB` by typing in
+
+    require 'conversions'
 
 # Use
 
@@ -29,7 +37,7 @@ You can convert a temperature to farenheit or to celcius
       @temperature.to_celsius
       @temperature.to_farenheit
         
-  ## Distance
+## Distance
   
 You can also convert between distances.
   
